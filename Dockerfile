@@ -7,6 +7,6 @@ USER root
 COPY --from=ffmpeg /ffmpeg /usr/local/bin/ffmpeg
 COPY --from=ffmpeg /ffprobe /usr/local/bin/ffprobe
 
-RUN npm install -g emailjs-mime-codec
+RUN npm install -g emailjs-mime-codec sharp minio
 
 USER node
