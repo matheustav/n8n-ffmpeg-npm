@@ -3,7 +3,7 @@ FROM alpine:3.24.3 AS exiftool
 
 RUN apk add --no-cache exiftool
 
-FROM n8nio/n8n:2.33.2
+FROM n8nio/n8n:2.46.1
 
 USER root
 
