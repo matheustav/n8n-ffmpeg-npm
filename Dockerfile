@@ -1,5 +1,5 @@
-FROM mwader/static-ffmpeg:8.1.2 AS ffmpeg
-FROM alpine:3.24 AS exiftool
+FROM mwader/static-ffmpeg:9.0.2-1 AS ffmpeg
+FROM alpine:3.24.3 AS exiftool
 
 RUN apk add --no-cache exiftool
 
